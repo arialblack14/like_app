@@ -1,4 +1,7 @@
 LikeApp::Application.routes.draw do
+  get "static_pages/like"
+  get "static_pages/Share"
+  get "static_pages/add"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
